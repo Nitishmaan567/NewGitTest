@@ -1,0 +1,34 @@
+
+$ git clone <repository URL>
+//This command clones the repo into selected location of the local computer
+
+$ cd <DirectoryName>
+//enter the directory, { ex: $ cd test, $ cd first-try.html}
+
+$ ls
+// lists the items inside the drive or the present folder inside the drive 
+
+//if you enter a directory {$ cd <DirectoryName>} and use  { $ ls } then it lists all the items inside the <DirectoryName> 
+
+$ clear 
+// clear screen
+
+$ git status
+//Show the status of the repository, hat is present in the staging area
+
+$ git add <FileName> { ex: $ git add first-try.html}
+// git add first-try.html will add it to the staging area. 
+
+//Later on, the sataging area will be used to commit files when you run git commit 
+
+$ git commit -m '<The message you want to display>' { ex: $ git commit -m 'first version of the fitrst-try code' }
+//commits the file from stage area to the local version control system(database)
+//changes area still not pushed into the github 
+//code resides in the computer
+
+$ git log 
+//shows all commit history
+
+
+
+
