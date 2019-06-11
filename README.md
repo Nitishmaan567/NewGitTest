@@ -1,1 +1,1 @@
-# NewGitTest
+# NewGitTest for git commands demostration 
